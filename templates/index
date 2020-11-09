@@ -340,6 +340,7 @@ cisco_xr_admin_show_platform.textfsm, .*, cisco_xr, adm[[in]] sh[[ow]] pla[[tfor
 cisco_xr_show_ip_bgp_summary.textfsm, .*, cisco_xr, sh[[ow]] ip b[[gp]] s[[ummary]]
 cisco_xr_show_ipv6_neighbors.textfsm, .*, cisco_xr, sh[[ow]] ipv6 ne[[ighbors]]
 cisco_xr_show_isis_neighbors.textfsm, .*, cisco_xr, sh[[ow]] isis ne[[ighbors]]
+cisco_xr_show_l2vpn_xconnect.textfsm, .*, cisco_xr, sh[[ow]] l2v[[pn]] x[[connect]]
 cisco_xr_show_lldp_neighbors.textfsm, .*, cisco_xr, sh[[ow]] lld[[p]] neig[[hbors]]
 cisco_xr_show_rsvp_neighbors.textfsm, .*, cisco_xr, sh[[ow]] rs[[vp]] neigh[[bors]]
 cisco_xr_show_bgp_neighbors.textfsm, .*, cisco_xr, sh[[ow]] bg[[p]] nei[[ghbors]]

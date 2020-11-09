@@ -1,0 +1,12 @@
+Value GROUP (.+?)
+Value NAME (.+?)
+Value XCONNECT_STATE (ST|UP|DN|AD|UR|SB|SR)
+Value LOCAL_INTERFACE (\S+^\.) 
+Value LOCAL_VLAN (\d+)
+Value LOCAL_STATE (ST|UP|DN|AD|UR|SB|SR)
+Value NEIGHBOR_ID (\d+.\d+.\d+.\d+)
+Value PW_ID (\d+)
+Value REMOTE_STATE (ST|UP|DN|AD|UR|SB|SR)
+
+Start
+  ^${GROUP}\s+${NAME}\s+${XCONNECT_STATE}\s+${LOCAL_INTERFACE}\.+${LOCAL_VLAN}\s+${LOCAL_STATE}\s+${NEIGHBOR_ID}\s+${PW_ID}\s+${REMOTE_STATE} -> Record
